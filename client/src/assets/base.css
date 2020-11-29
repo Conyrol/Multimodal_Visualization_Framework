@@ -1,0 +1,49 @@
+body {
+    background-color: #f7f7f7;
+    height: 100%;
+}
+* { margin: 0; padding: 0;}     /* 清除所有元素的内外边距 */
+
+a { text-decoration: none; }    /* 去除a的下划线 */
+
+ul, ol { list-style: none; }    /* 去除ul,ol的圆点 */
+
+input { outline-style: none; }  /* 去除input的外线 */
+
+/* 布局整理 */
+.flexDiv_col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+.flexDiv_col2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.flexDiv_col3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.flexDiv_col_withoutHeight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.flexDiv_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flexDiv_row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flexDiv_row3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
